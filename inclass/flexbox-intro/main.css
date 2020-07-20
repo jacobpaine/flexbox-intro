@@ -51,4 +51,14 @@ ul a:hover {
   margin: 25px;
 }
 
-/* Rolf */
+/* Dogs */
+.rolf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rolf img {
+  height: 200px;
+  margin: 25px;
+}
