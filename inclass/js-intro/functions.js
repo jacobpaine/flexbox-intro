@@ -1,5 +1,15 @@
-const birthdayIn2099 = (birthday) => {
-  return 2099 - birthday;
+const friends = ["Dave", "Phil", "Bob", "Greg"];
+const notGreg = ["Dave", "Phil", "Bob"];
+
+const checkForGreg = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === "Greg") {
+      return "Greg is here.";
+    } else {
+      return "no Greg";
+    }
+  }
 };
 
-console.log(birthdayIn2099(1983));
+console.log("friends!:", checkForGreg(friends));
+console.log("Not Greg!:", checkForGreg(notGreg));
