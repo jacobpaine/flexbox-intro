@@ -4,6 +4,4 @@ const colors = ["green", "blue", "fuschia", "periwinkle", "crimson", "lavender",
 
 const colorLoop = (color) => {
     let domString = "";
-
-    
 }
