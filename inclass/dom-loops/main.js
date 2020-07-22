@@ -35,14 +35,14 @@ console.log(employee.firstName);
 const keyToCheck = "accolade";
 console.log("iscool? ", employee[keyToCheck].isCool);
 
-// const findPeasents = (employee) => {
-//   if (employee.firstName.slice(0, 1).toUpperCase() !== "M") {
-//     employee.status = "peasent";
-//   } else {
-//     employee.status = "vip";
-//   }
-//   return employee;
-// };
+const findPeasents = (employee) => {
+  if (employee.firstName.slice(0, 1).toUpperCase() !== "M") {
+    employee.status = "peasent";
+  } else {
+    employee.status = "vip";
+  }
+  return employee;
+};
 
-// console.log(findPeasents(employee));
+console.log(findPeasents(employee));
 console.log(employee.firstName[0]);
