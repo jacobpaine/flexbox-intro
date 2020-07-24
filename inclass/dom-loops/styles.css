@@ -1,0 +1,10 @@
+#dino-barn {
+  display: flex;
+  background-color: red;
+  margin: 15px;
+}
+
+.dinosaur {
+  border-right: dashed 1px black;
+  padding: 15px;
+}
